@@ -1,0 +1,60 @@
+﻿{
+   "CodeGenerationMode": 0,
+   "ContextClassName": "ComplextaskidentityContext",
+   "ContextNamespace": null,
+   "DefaultDacpacSchema": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": null,
+   "ProceduresReturnList": false,
+   "ProjectRootNamespace": "dbstep2",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 0,
+   "SelectedToBeGenerated": 0,
+   "Tables": [
+      {
+         "Name": "public.AspNetRoles",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.AspNetRoleClaims",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.AspNetUsers",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.AspNetUserClaims",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.AspNetUserLogins",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.AspNetUserRoles",
+         "ObjectType": 0
+      },
+      {
+         "Name": "public.AspNetUserTokens",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": ".complexTaskIdentity",
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": false,
+   "UseDbContextSplitting": false,
+   "UseFluentApiOnly": false,
+   "UseHandleBars": false,
+   "UseInflector": false,
+   "UseLegacyPluralizer": false,
+   "UseNoConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UseSpatial": false
+}
