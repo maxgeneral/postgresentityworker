@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbfirst", "dbfirst\dbfirst.csproj", "{9FD7D1AA-23A2-4CA4-A70E-B2609C2F9ADC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dbfirst", "dbfirst\dbfirst.csproj", "{9FD7D1AA-23A2-4CA4-A70E-B2609C2F9ADC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "webclient", "webclient\webclient.csproj", "{8A8657D7-4F51-4B3E-9066-BF8C85531761}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webclient", "webclient\webclient.csproj", "{8A8657D7-4F51-4B3E-9066-BF8C85531761}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dbstep2", "dbstep2\dbstep2.csproj", "{78B74FB2-D695-4643-B6ED-8901FBE548BF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dbstep2", "dbstep2\dbstep2.csproj", "{78B74FB2-D695-4643-B6ED-8901FBE548BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "identitystorage", "identitystorage\identitystorage.csproj", "{3AEFC3BE-6BEF-4271-9834-9E95EF8E5B3C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{78B74FB2-D695-4643-B6ED-8901FBE548BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B74FB2-D695-4643-B6ED-8901FBE548BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B74FB2-D695-4643-B6ED-8901FBE548BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3AEFC3BE-6BEF-4271-9834-9E95EF8E5B3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3AEFC3BE-6BEF-4271-9834-9E95EF8E5B3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3AEFC3BE-6BEF-4271-9834-9E95EF8E5B3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3AEFC3BE-6BEF-4271-9834-9E95EF8E5B3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
