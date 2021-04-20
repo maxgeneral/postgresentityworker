@@ -5,11 +5,13 @@ VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dbfirst", "dbfirst\dbfirst.csproj", "{9FD7D1AA-23A2-4CA4-A70E-B2609C2F9ADC}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "webclient", "webclient\webclient.csproj", "{8A8657D7-4F51-4B3E-9066-BF8C85531761}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "dbstep2", "dbstep2\dbstep2.csproj", "{78B74FB2-D695-4643-B6ED-8901FBE548BF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "identitystorage", "identitystorage\identitystorage.csproj", "{3AEFC3BE-6BEF-4271-9834-9E95EF8E5B3C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "identitystorage", "identitystorage\identitystorage.csproj", "{3AEFC3BE-6BEF-4271-9834-9E95EF8E5B3C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. Connect by postgres", "1. Connect by postgres", "{F9E526BA-75A5-4D12-AA2C-78FB472DFC7B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Custom identity", "2. Custom identity", "{9B26EB15-17A8-4333-B619-3B075BF150F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +23,6 @@ Global
 		{9FD7D1AA-23A2-4CA4-A70E-B2609C2F9ADC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9FD7D1AA-23A2-4CA4-A70E-B2609C2F9ADC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9FD7D1AA-23A2-4CA4-A70E-B2609C2F9ADC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8A8657D7-4F51-4B3E-9066-BF8C85531761}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8A8657D7-4F51-4B3E-9066-BF8C85531761}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8A8657D7-4F51-4B3E-9066-BF8C85531761}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8A8657D7-4F51-4B3E-9066-BF8C85531761}.Release|Any CPU.Build.0 = Release|Any CPU
 		{78B74FB2-D695-4643-B6ED-8901FBE548BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{78B74FB2-D695-4643-B6ED-8901FBE548BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B74FB2-D695-4643-B6ED-8901FBE548BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -36,6 +34,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9FD7D1AA-23A2-4CA4-A70E-B2609C2F9ADC} = {F9E526BA-75A5-4D12-AA2C-78FB472DFC7B}
+		{78B74FB2-D695-4643-B6ED-8901FBE548BF} = {F9E526BA-75A5-4D12-AA2C-78FB472DFC7B}
+		{3AEFC3BE-6BEF-4271-9834-9E95EF8E5B3C} = {F9E526BA-75A5-4D12-AA2C-78FB472DFC7B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {1BBD7A7E-CC50-4B5F-938C-EBA3E3B5D08A}
